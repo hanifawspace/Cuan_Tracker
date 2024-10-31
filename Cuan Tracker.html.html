@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website CuanTracker</title>
+    <link rel="stylesheet" href="cuan tracker.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="site-header">
+            <img src="cuan tracker.png" alt="Cuan tracker Logo" class="header-logo">
+        </header>
+        <header class="menu">
+            <div class="menu-left">
+                <button>Menu</button>
+                <button>About</button>
+            </div>
+            <div class="menu-right">
+                
+                <div class="profile">👤 Log In</div>
+            </div>
+        </header>
+
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Small habits today lead to big financial victories tomorrow</h1>
+                
+            </div>
+
+        </section>
+
+        <section class="info-section">
+            <div class="info-item">
+                <img src="keuangan 7.jpg" alt="Best Finance Planner">
+                <div class="info-item-content">
+                    <h3>Mulai Buat Anggaran</h3>
+                    <p>Rencanakan Keuangan untuk Petualangan Impian Anda.</p>
+                    <button onclick="showBudget()">Buat Anggaran</button>
+                </div>
+            </div>
+            <div class="info-item">
+              <img src="keuangan 5.jpg" alt="Best Finance Planner">
+                <div class="info-item-content">
+                    <h3>Catat Setiap Rupiah!</h3>
+                    <p>Pantau Pengeluaran Anda dengan Mudah.</p>
+                    <br> </br>
+                    <button onclick="showExpenseTracker()">Pelacakan Pengeluaran</button>
+                </div>
+            </div>
+            <div class="info-item">
+              <img src="keuangan 8.jpg" alt="Best Finance Planner">
+                <div class="info-item-content">
+                    <h3>Review Keuangan!</h3>
+                    <p>Ambil Keputusan Berdasarkan Data</p>
+                    <br> </br>
+                    <button onclick="showReport()">Laporan Keuangan</button>
+                </div>
+            </div>
+        </section>
+        <div id="content" class="result-section"></div>
+
+        <footer>
+            <p>&copy; 2024 MyWebsite. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="cuan tracker.js"></script>
+     
+</body>
+</html>
